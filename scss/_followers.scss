@@ -1,0 +1,29 @@
+.followers{
+    @include flex;
+    background-color: $Purple500;
+    height: 300px;
+
+    img{
+        height: 200px;
+        width: 80%;
+    }
+
+    h2{
+        color: $White;
+    }
+
+    @media (min-width:$Laptop){
+        grid-area: 5/3/7/5;
+        @include size;
+        padding: 0;
+
+        img{
+            width: 50%;
+            height: 80%;
+        }
+
+        h2{
+            max-width: 40%;
+        }
+    }
+}

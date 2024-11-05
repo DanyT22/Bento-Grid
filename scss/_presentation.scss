@@ -1,0 +1,27 @@
+.presentation{
+    @include flex;
+    background-color: $Purple500;
+    height: 300px;
+
+    h1{
+        color: $White;
+        font-size: 40px;
+    }
+
+    span{
+        color: $Yellow500;
+    }
+
+    img{
+        width: 70%;
+    }
+
+    p{
+        color: $White
+    };
+
+    @media (min-width:$Laptop){
+        grid-area: 1/2/3/4;
+        @include size;
+    }
+}

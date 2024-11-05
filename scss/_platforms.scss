@@ -1,0 +1,15 @@
+.platforms{
+    @include flex;
+    background-color: $White;
+    height: 200px;
+    text-align: left320;
+
+    img{
+        width: 100%;
+    }
+
+    @media (min-width:$Laptop){
+        grid-area: 3/2/5/3;
+        @include size;
+    }
+}

@@ -1,0 +1,35 @@
+.audience{
+    @include flex;
+    background-color: $White;
+    height: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h2{
+        font-size: 40px;
+    }
+
+    img{
+        width: 50%;
+        height: 50px;
+    }
+
+    @media (min-width:$Laptop){
+        grid-area: 5/2/7/3;
+        @include size;
+
+        h2{
+            font-size: 56px;
+        }
+
+        p{
+            margin: 10px 0;
+        }
+
+        img{
+            height: 40%;
+            width: 80%;
+        }
+    }
+}

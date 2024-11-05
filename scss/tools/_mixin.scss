@@ -1,0 +1,26 @@
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+@mixin flex-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+@mixin size{
+    height: auto;
+    width: auto;
+    justify-content: center;
+}

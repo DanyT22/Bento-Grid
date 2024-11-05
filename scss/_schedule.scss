@@ -1,0 +1,17 @@
+.schedule{
+    @include flex-left;
+    background-color: $Yellow500;
+    height: 250px;
+    padding-bottom: 0;
+
+    img{
+        height: 150px;
+        width: 200px;
+        align-self: flex-end;
+    }
+
+    @media (min-width:$Laptop){
+        grid-area: 3/3/5/4;
+        @include size;
+    }
+}
