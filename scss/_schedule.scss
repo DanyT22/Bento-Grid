@@ -13,5 +13,9 @@
     @media (min-width:$Laptop){
         grid-area: 3/3/5/4;
         @include size;
+
+        h2{
+            max-width: 90%;
+        }
     }
 }

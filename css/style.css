@@ -79,7 +79,6 @@ main {
   padding: 20px;
   background-color: hsl(0, 0%, 100%);
   height: 200px;
-  text-align: left320;
 }
 .platforms img {
   width: 100%;
@@ -116,6 +115,9 @@ main {
     height: auto;
     width: auto;
     justify-content: center;
+  }
+  .schedule h2 {
+    max-width: 90%;
   }
 }
 
@@ -262,7 +264,7 @@ main {
 }
 .ai img {
   height: 200px;
-  width: 60%;
+  width: 80%;
 }
 @media (min-width: 600px) {
   .ai {
@@ -272,8 +274,8 @@ main {
     justify-content: center;
   }
   .ai img {
-    height: 65%;
-    width: 80%;
+    height: 60%;
+    width: 90%;
   }
 }
 

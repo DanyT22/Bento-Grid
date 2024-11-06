@@ -5,16 +5,16 @@
 
     img{
         height: 200px;
-        width: 60%;
-    };
+        width: 80%;
+    }
 
     @media (min-width:$Laptop){
         grid-area: 4/1/7/2;
         @include size;
 
         img{
-            height: 65%;
-            width: 80%;
+            height: 60%;
+            width: 90%;
         }
     }
 }
